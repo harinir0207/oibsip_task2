@@ -1,0 +1,190 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    background: #bdbdbd; 
+    color: #fff; 
+} 
+ 
+.container { 
+    padding: 10px 5%; 
+} 
+.container hr{
+   width: 690px;
+   color: burlywood;
+}
+ 
+nav { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+} 
+ 
+nav ul li { 
+    display: inline-block; 
+    list-style: none; 
+    margin: 80px 55px 2px 20px; 
+ 
+} 
+#p1 hr{
+   width: 150px;
+   margin-top: 5px;
+}
+ 
+nav ul li a { 
+    color: black; 
+    text-decoration: none; 
+    font-size: 35px; 
+    position: relative; 
+  
+ 
+} 
+ 
+nav ul li a::after { 
+    content: ''; 
+    width: 0%; 
+    height: 3px; 
+    background: #685149; 
+    position: absolute; 
+    left: 0; 
+    bottom: -6px; 
+    transition: 0.5s; 
+ 
+} 
+ 
+nav ul li a:hover::after { 
+    width: 100%; 
+} 
+
+ 
+.header-text { 
+    margin-top:200px; 
+    font-size: 30px; 
+ 
+} 
+ 
+.header-text h1 { 
+    font-size: 60px; 
+    margin-top: 20px; 
+} 
+.header-text P{
+   color:  rgb(47, 48, 47);
+}
+ 
+.header-text h1 span { 
+    color:#462e41; 
+    text-decoration: dashed;
+} 
+ 
+
+
+.header-text hr{
+   width: 390px;
+   margin-top: 18px;
+}
+#p3 hr{
+   width: 250px;
+   margin-top: 18px;
+}
+#p3 h2{
+   color: rgb(47, 48, 47);
+}
+ 
+/* ABOUT */ 
+#about { 
+ 
+    height: 1vh; 
+} 
+#p1 p{
+   margin-left: 40px;
+   border-left: 2px solid rgb(230, 220, 220);
+   padding-left: 10px;
+   background:linear-gradient(to left,rgb(89, 89, 89), rgb(183, 181, 181));
+}
+ 
+.div1 { 
+    width: 80px; 
+    font-size: larger; 
+    font-family: sans-serif; 
+    background-color: black; 
+ 
+} 
+
+#p1 h2{
+   color:  rgb(47, 48, 47);
+}
+#p2 h2{
+   color: rgb(47, 48, 47) ;
+}
+#p2 hr{
+   width: 150px;
+   margin-top: 18px;
+}
+ 
+#p1 { 
+    height: 300px; 
+    text-align: justify; 
+    line-height: 40px; 
+    letter-spacing: .1rem; 
+    font-weight: bold; 
+    font-size: 30px; 
+} 
+ 
+#p2
+#p3 { 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 350px; 
+    text-align: justify; 
+    line-height: 30px; 
+    letter-spacing: .1rem; 
+    font-weight: bold; 
+    font-size: 30px; 
+} 
+ 
+.row1>h1 { 
+    padding-top: 10px; 
+ 
+} 
+ 
+#li1 { 
+    font-size: x-large; 
+    list-style: none; 
+    margin: 40px 0; 
+} 
+ 
+#span1 { 
+    color: black; 
+    font-size: 20px; 
+} 
+ 
+/* contact */ 
+#contact { 
+    text-align: justify; 
+    padding: 0% 100%; 
+ 
+} 
+ 
+.row1 { 
+    display: block; 
+    padding-right: 0vh; 
+    text-align: center; 
+    font-size: 40px; 
+    /* border: 1px solid red; */ 
+    height: 900px; 
+    width: 1610px; 
+    margin-left: -160px; 
+} 
+.row1 h1{
+   text-decoration: underline;
+   color:  rgb(47, 48, 47);
+}
+ 
+a { 
+    text-decoration: none; 
+    color: black; 
+}
